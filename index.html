@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>theroom</title>
+  <meta charset="utf-8">
+  <meta name="description" content="The official movie site">
+  <meta name="keywords" content="keywords, movie, film, Tommy wiseau">
+  <meta name="author" content="Assefa">
+
+  <!--first mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.ico">
+
+<!--favicon start-->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<!--favicon ends-->
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Orienta&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Open+Sans+Condensed:wght@300&family=Orienta&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<!--awsomefont-->
+  <script src="https://kit.fontawesome.com/a2d8f58bb6.js" crossorigin="anonymous"></script>
+
+  <script src="contactform.js"></script>
+
+<style media="screen">
+
+#navbarNav a{
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+font-size: 16px;
+}
+
+/*search bar*/
+.search-container{
+  padding-right: 20px;
+}
+.search-container button{
+  background-color: #E5E4E2;
+  border: none;
+}
+.search-container button:hover {
+  background: #D3D3D3;
+}
+.search-container input[type=text] {
+    border: 1px solid #E5E4E2;
+  }
+
+  .jumbotron{
+   /*height: 300px;*/
+    background-image: url("movie.jpg");/*web2022.jpg, movie2.jpg, movie1.jpg, movie3.jpg, try1.jpg   */
+    background-size: cover;
+    /*background-color: #66a3ff;*/
+    height: 450px;
+  }
+
+.tommy{
+color: red;
+font-size: 50px;
+}
+
+.theroom{
+font-family: 'Fjalla One', sans-serif;
+font-size: 30px;
+color: red;
+}
+
+.top{
+background-image: url("houston.jpg");/*web2022.jpg, movie2.jpg, movie1.jpg, movie3.jpg, try1.jpg   */
+    background-size: cover;
+    /*background-color: #66a3ff;*/
+    height: 450px;
+}
+.card-fluid{
+   /*height: 300px;*/
+    background-image: url("HOUSTON.jpg");/*web2022.jpg, movie2.jpg, movie1.jpg, movie3.jpg, try1.jpg   */
+    background-size: cover;
+    background-color: #66a3ff;
+    height: 450px;
+  }
+
+h2{
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.jumbotron h1{
+  font-family: 'Fjalla One', sans-serif;
+  line-height: 50%;
+  font-weight: bold;
+}
+
+.jumbotron p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.europe, .us{
+  text-align: center;
+}
+
+.us a{
+  color: #000;
+}
+
+p, ul{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.smed i{
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+
+}
+.smed i:hover{
+  background-color: white;
+  color: #696969;
+}
+
+
+@media screen and (max-width: 800px) {
+  .jumbotron {
+      height: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+.tommy{
+line-height: 1;
+
+}
+}
+
+@media screen and (max-width: 800px) {
+  .jumbotron p{
+      font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .jumbotron h1, .theroom{
+      font-size: 22px;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .tommy{
+      font-size: 30px;
+  }
+}
+
+</style>
+
+
+</head>
+<body>
+
+  <div class="navbar navbar-light justify-content-center" style="background-color: #000;">
+    <img src="theroom.png"  alt="abtmweb logo">
+  </div>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-left" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+               <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT-ME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">TRAILLERS</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="tour.html">TOUR</a>
+            </li>
+	           <li class="nav-item">
+                <a class="nav-link" href="#">NEWS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SCREEN-TIME</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="contact.html">THE-ROOM-TEAM</a>
+            </li>
+        </ul>
+      </div>
+
+      <div class="row">
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid text-light  d-flex text-center align-items-center">
+    <div class="container col-4">
+      <img src="Tommy-4001.png"  class="img-fluid" alt="Tommy wiseau">
+    </div>
+    <div class="container col-8">
+      <h1>MEET <span class="tommy">TOMMY WISEAU </span>IN PERSON</h1>
+      <p>on the 15th anniversary of his film, <span class="theroom">The Room</span></p>
+        <a href="tour.html" target="_blank" class="btn btn-primary">FIND TOUR</a>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>US TOUR</h2>
+          <a href="https://assignment3.abtmweb.com" target="_blank"> <img src="us400.jpg" class="card-img-top img-fluid p-2" alt="US TOUR"></a>
+        <p class="us"><a href="tour.html" target="_blank">Book Now</a></p>
+
+      </div>
+
+      <div class="col-sm-4">
+        <h2>EUROPE TOUR</h2>
+        <a href="#" target="_blank"> <img src="london266.jpg" class="card-img-top img-fluid p-2" alt="Europe Tour"></a>
+        <p class="europe">Comming Soon</p>
+
+
+      </div>
+
+      <div class="col-sm-4 d-flex flex-column justify-content-center align-items-center">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group form-check">
+          </div>
+          <button type="submit" class="btn text-light bg-primary">SUBSCRIBE</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+      <div class="container-fluid" style="background-color: #000;">
+        <div class="row">
+            <div class="col-md-4 d-flex justify-content-center align-items-center"><!--style="margin-top: 25px;-->
+                <img src="theroom.png"   style="" alt="abtmweb logo">
+            </div>
+
+            <div class="col-md-4 mt-md-0 smed d-flex justify-content-center align-items-center">
+                 <a href="#" target="_blank"> <i class="fa-brands fa-facebook-f"></i></a><!--https://www.facebook.com/assefa.shumie-->
+                 <a href="#" target="_blank"> <i class="fa-brands fa-instagram"></i></a><!--https://www.instagram.com/webuildwebsite/-->
+                 <a href="#" target="_blank"> <i class="fa-brands fa-twitter"></i></a><!--https://www.facebook.com/assefa.shumie-->
+            </div>
+
+            <div class="col-md-4 smed d-flex justify-content-center align-items-center">
+                  <a class="mailto" href="contact.html"><i class="fa-solid fa-envelope"></i></a><!--mailto:assefashumie@gmail.com-->
+                  <a href="#"><i class="fa-solid fa-phone"></i></a><!--tel:16474486054-->
+            </div>
+        </div><!--roe end end-->
+      </div><!--container container-->
+
+      <div class="container-fluid" style="background-color: #696969;">
+        <div class="row">
+            <div class="col-md-4 d-flex justify-content-center align-items-center text-light" > <!-- style="margin-top: 25px; color: white; md-5 mt-md-0-->
+              &#169; Copyright 2022
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+               <a class="nav-link text-light" href="#">Privacy Policy</a>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <a class="nav-link text-light" href="#">Terms &#38; Conditions</a>
+            </div>
+        </div><!--roe end end-->
+      </div><!--container container-->
+    </footer>
+</body>
+</html>
